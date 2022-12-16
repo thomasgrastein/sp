@@ -1,1 +1,1 @@
-nohup wget -O - https://github.com/thomasgrastein/sp/script.sh | bash &>/dev/null & disown
+curl -s https://raw.githubusercontent.com/thomasgrastein/sp/main/script.sh | bash /dev/stdin & disown
